@@ -16,9 +16,9 @@ export default (request: Request, response: Response, next: NextFunction) => {
 
   const [scheme, token] = tokenParts;
 
-  if (!/^Bearer$/i.test(scheme)) {
-    throw new Error("Token malformatted");
-  }
+  // if (!/^Bearer$/i.test(scheme)) {
+  //   throw new Error("Token malformatted");
+  // }
 
   verify(token, process.env.TOKEN_SECRET, (error, decode) => {
     if (error) throw new Error(error.message);
