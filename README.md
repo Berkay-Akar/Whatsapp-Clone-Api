@@ -41,7 +41,7 @@ Was made with:
 Clone this repository with `git clone`
 
 ```bash
-git clone https://github.com/GabrSobral/WhatsApp-Clone-API.git
+git clone https://github.com/Berkay-Akar/Whatsapp-Clone-Api
 ```
 
 ### Step 2
